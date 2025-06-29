@@ -5,11 +5,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LaunchBrowser {
 
 	public static void main(String[] args) {
-
+		
+		//to launch the browser
 		ChromeDriver driver=new ChromeDriver();
-		driver.get("https://www.facebook.com"); // To launch Facebook website
+		
+		// To launch Facebook website
+		driver.get("https://www.facebook.com"); 
+		
+		//to get the title of the webpage
 		System.out.println(driver.getTitle());
-		driver.manage().window().maximize(); // To maximize the browser window
-		// driver.close(); //To close the current browser window
+		
+		// To maximize the browser window
+		driver.manage().window().maximize(); 
+		
+		//To close the current browser window
+		driver.close();  
 	}
 }
