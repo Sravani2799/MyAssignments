@@ -33,11 +33,8 @@ public class CreateLeadInLeafTaps {
 		
 		//Enter the firstname, Lastname, Companyname and Title
 		lead.findElement(By.id("createLeadForm_firstName")).sendKeys("Sravani");
-		
 		lead.findElement(By.id("createLeadForm_lastName")).sendKeys("Devi");
-		
 		lead.findElement(By.id("createLeadForm_companyName")).sendKeys("TestLeads");
-		
 		lead.findElement(By.name("generalProfTitle")).sendKeys("Test Project For Automation");
 		
 		//click on the create lead button to create a lead
