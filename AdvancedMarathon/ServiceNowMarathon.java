@@ -80,7 +80,7 @@ public class ServiceNowMarathon {
 		System.out.println(driver.getWindowHandle());
 		
 		//Getting URL of the Order Confirmation Page
-		System.out.println("URL: "+ driver.getCurrentUrl());
+		System.out.println("URL to check the order: "+ driver.getCurrentUrl());
 		
 		//Close the window
 		driver.close();
