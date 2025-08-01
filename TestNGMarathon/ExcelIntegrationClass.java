@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class ExcelIntegrationTestNGMarathon {
+public class ExcelIntegrationClass {
 	
 	public static String[][] saveData(String ExcelWorkBook) throws IOException {
 		
